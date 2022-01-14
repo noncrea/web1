@@ -5,115 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>estilos css de prueba</title>
-    <style>
-        /* simbolo comentario. *=selector universal */
-        * {
-            margin: 0px;
-            padding: 2px;
-            background: lightpink;
-        }
-
-        /* padding=reserva/caja del objeto */
-        header h1 {
-            width: 100%;
-            height: 100px;
-            line-height: 100px;
-            margin-top: 20px;
-            background: gray;
-            text-align: center;
-            text-justify: auto;
-            color: aliceblue
-        }
-
-        nav {
-            border: 1px;
-            color: red;
-        }
-
-        article,
-        h2,
-        p {
-            width: 100%;
-            margin: 10px;
-            padding: 5px;
-            background-color: white;
-            align-items: center;
-        }
-
-        footer h2 {
-            width: 100%;
-            height: 60px;
-            line-height: 50px;
-            /* altura centrado de texto */
-            background: black;
-            text-align: center;
-            color: aqua
-        }
-
-        * {
-            color: red;
-        }
-
-        /* este * anula y sustituye al anterior */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: black;
-            background: white;
-            margin-top: 8px;
-            border: 0px;
-        }
-
-        li,
-        a,
-        p {
-            color: dimgray;
-        }
-
-        article,
-        article p,
-        article h2 {
-            width: 94%;
-            padding: 8px;
-            border: 2px solid black;
-            background: white;
-        }
-
-        p {
-            width: 100%;
-        }
-
-        section article article {
-            width: 94%;
-        }
-
-        section article {
-            width: 100%;
-        }
-
-        section {
-            /* margen arriba abajo izq y der. un solo valor se aplica a todos */
-            margin: 3%;
-            width: 94%;
-        }
-
-        article article p {
-            background: lime;
-            color: black;
-        }
-
-        article h2 {
-            border: 0px;
-        }
-
-        nav ul li {
-            list-style: none;
-            display: inline-block;
-        }
-    </style>
 </head>
 
 <body>
@@ -152,25 +43,17 @@
                 </p>
                 <p>Si se quieren incluir los estilos del ejemplo anterior en un archivo CSS externo, se deben seguir los siguientes pasos:</p>
                 <ol>
-                    <li>1) Se crea un archivo de texto y se le añade solamente el siguiente contenido:
+                    <li>Se crea un archivo de texto y se le añade solamente el siguiente contenido:
                         <ul>
-                            <li>p { color: black; font-family: Verdana; }</li>
+                            <li><span class="verde">p</span> { color: black; font-family: Verdana; }</li>
                         </ul>
                     </li>
-                    <li>2) Se guarda el archivo de texto con el nombre estilos.css Se debe poner especial atención a que el archivo tenga extensión .css y no .txt
+                    <li>Se guarda el archivo de texto con el nombre estilos.css Se debe poner especial atención a que el archivo tenga extensión .css y no .txt
                     </li>
-                    <li>3) En la página HTML se enlaza el archivo CSS externo mediante la etiqueta <em>link</em> :
+                    <li>En la página HTML se enlaza el archivo CSS externo mediante la etiqueta <em>link</em> :
                     </li>
                 </ol>
                 <p>Cuando el navegador carga la página HTML anterior, antes de mostrar sus contenidos también descarga los archivos CSS externos enlazados mediante la etiqueta <em>link</em> y aplica los estilos a los contenidos de la página.
-                </p>
-            </article>
-            <article>
-                <p>
-                </p>
-            </article>
-            <article>
-                <p>
                 </p>
             </article>
         </section>
@@ -227,4 +110,4 @@
 <footer>
     <h2>péde páxina</h2>
 </footer></html>
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="../styles/rosafeo.css">
