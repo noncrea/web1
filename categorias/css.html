@@ -100,16 +100,18 @@
             width: 94%;
         }
 
-        article article p{
+        article article p {
             background: lime;
             color: black;
         }
+
         article h2 {
             border: 0px;
         }
-        nav ul li{
-        list-style: none;
-        display: inline-block;
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
         }
     </style>
 </head>
@@ -130,59 +132,96 @@
     </nav>
     <main>
         <section>
-
+            <h2>Articulos CSS</h2>
+            <article>
+                <h3>Incluir CSS en el mismo documento HTML</h3>
+                <p>Los estilos se definen en una zona específica del propio documento HTML. Se emplea la etiqueta <em>"style"</em> de HTML y solamente se pueden incluir en la cabecera del documento (sólo dentro de la sección <em>"head"</em>).
+                </p>
+                <p>Este método se emplea cuando se define un número pequeño de estilos o cuando se quieren incluir estilos específicos en una determinada página HTML que completen los estilos que se incluyen por defecto en todas las páginas del sitio web.
+                </p>
+                <p>El principal inconveniente es que si se quiere hacer una modificación en los estilos definidos, es necesario modificar todas las páginas que incluyen el estilo que se va a modificar.
+                </p>
+                <p>Los ejemplos mostrados en este libro utilizan este método para aplicar CSS al contenido HTML de las páginas. De esta forma el código de los ejemplos es más conciso y se aprovecha mejor el espacio.
+                </p>
+            </article>
+            <article>
+                <h3>Definir CSS en un archivo externo</h3>
+                <p>En este caso, todos los estilos CSS se incluyen en un archivo de tipo CSS que las páginas HTML enlazan mediante la etiqueta <em>link</em>. Un archivo de tipo CSS no es más que un archivo simple de texto cuya extensión es .css Se pueden crear todos los archivos CSS que sean necesarios y cada página HTML puede enlazar tantos archivos CSS como necesite.
+                </p>
+                <p>Cuando el navegador carga la página HTML anterior, antes de mostrar sus contenidos también descarga los archivos CSS externos enlazados mediante la etiqueta <em>link</em> y aplica los estilos a los contenidos de la página.
+                </p>
+                <p>Si se quieren incluir los estilos del ejemplo anterior en un archivo CSS externo, se deben seguir los siguientes pasos:</p>
+                <ol>
+                    <li>1) Se crea un archivo de texto y se le añade solamente el siguiente contenido:
+                        <ul>
+                            <li>p { color: black; font-family: Verdana; }</li>
+                        </ul>
+                    </li>
+                    <li>2) Se guarda el archivo de texto con el nombre estilos.css Se debe poner especial atención a que el archivo tenga extensión .css y no .txt
+                    </li>
+                    <li>3) En la página HTML se enlaza el archivo CSS externo mediante la etiqueta <em>link</em> :
+                    </li>
+                </ol>
+                <p>Cuando el navegador carga la página HTML anterior, antes de mostrar sus contenidos también descarga los archivos CSS externos enlazados mediante la etiqueta <em>link</em> y aplica los estilos a los contenidos de la página.
+                </p>
+            </article>
+            <article>
+                <p>
+                </p>
+            </article>
+            <article>
+                <p>
+                </p>
+            </article>
         </section>
         <section>
             <article>
                 <h2>Lore1</h2>
-                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                    Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
+                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
             </article>
             <article>
                 <h2>Lore2</h2>
-                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                    Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
+                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
             </article>
             <article>
                 <h2>Lore3</h2>
-                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                    Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
+                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
             </article>
             <article>
                 <h2>Lore4</h2>
-                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                    Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
+                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
             </article>
         </section>
         <section>
             <h2>Artículos Anidados en CSS</h2>
             <article>
                 <h3>anidado Lorem1</h3>
-                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                    Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
-                <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                    Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
+                <p>El párrafo o parágrafo es una unidad,
+                    tanto lingüística como formal,
+                    de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y,
+                    según cómo se lo presente,
+                    ayudará a facilitar su comprensión.</p>
+                <p>El párrafo o parágrafo es una unidad,
+                    tanto lingüística como formal,
+                    de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y,
+                    según cómo se lo presente,
+                    ayudará a facilitar su comprensión.</p>
                 <article>
                     <h4>anidado anidado Lorem2</h4>
-                    <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                        Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
-                    <p>El párrafo o parágrafo es una unidad, tanto lingüística como formal, de vital importancia para producir e interpretar un texto.
-
-                        Esta unidad organiza el discurso de lo que se dice y, según cómo se lo presente, ayudará a facilitar su comprensión.</p>
+                    <p>El párrafo o parágrafo es una unidad,
+                        tanto lingüística como formal,
+                        de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y,
+                        según cómo se lo presente,
+                        ayudará a facilitar su comprensión.</p>
+                    <p>El párrafo o parágrafo es una unidad,
+                        tanto lingüística como formal,
+                        de vital importancia para producir e interpretar un texto. Esta unidad organiza el discurso de lo que se dice y,
+                        según cómo se lo presente,
+                        ayudará a facilitar su comprensión.</p>
                 </article>
             </article>
         </section>
-        <section>
-
-        </section>
-
+        <section></section>
     </main>
 </body>
 <footer>
