@@ -3,13 +3,13 @@
         margin: 0px;
         padding: 2px;
         background: lightpink;
+                font-family: 'Oswald', sans-serif;
+
     }
 
+    @charset "utf-8";
     @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
 
-    body {
-        font-family: 'Oswald', sans-serif;
-    }
 
     /* padding=reserva/caja del objeto */
     header h1 {
@@ -63,7 +63,7 @@
         background: white;
         margin-top: 8px;
         border: 0px;
-    }
+        font-style: inherit;
 
     li,
     a,
