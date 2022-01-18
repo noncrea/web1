@@ -1,16 +1,64 @@
-h2 {color: black}
-h3 {color: cadetblue}
-h4 {
+h2 {
+    color: black
+}
+
+article.ej2 #titulo {
+    color: cadetblue
+}
+
+article.ej2 #subtitulo {
     color: blue
 }
-em {color: blue}
-table {color: green}
-.especial {color: red} 
-.destacado {color: darkgoldenrod}
-.especial {color: darkgoldenrod}
-strong {color: red}
-.aene {color: red}
-th {color: red}
-#adicional {color: 0x241a1a}
-#adicional span {color: darkviolet}
-#adicional a {color: darkgreen}
+
+article.ej2 p strong,
+article.ej2 a {
+    color: red
+}
+
+article.ej2 .destacado,
+article.ej2 .especial {
+    color: darkgoldenrod
+}
+
+article.ej2 .especial span {
+    color: darkviolet
+}
+
+article.ej2 p em {
+    color: blue
+}
+
+article.ej2 th,
+article.ej2 td {
+    border: 1px solid black;
+}
+
+article.ej2 tr {
+    color: green
+}
+
+article.ej2 .especial {
+    color: red
+}
+
+article.ej2 table caption {color: blue}
+article.ej2 .especial,
+article.ej2 tr strong {
+    color: darkgoldenrod
+}
+
+
+article.ej2 th {
+    color: red
+}
+
+article.ej2 #adicional {
+    color: grey
+}
+
+article.ej2 #especial {
+    color: fuchsia
+}
+article.ej2 #adicional a {
+    color: darkgreen
+}
