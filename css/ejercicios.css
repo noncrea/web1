@@ -1,0 +1,16 @@
+h2 {color: black}
+h3 {color: cadetblue}
+h4 {
+    color: blue
+}
+em {color: blue}
+table {color: green}
+.especial {color: red} 
+.destacado {color: darkgoldenrod}
+.especial {color: darkgoldenrod}
+strong {color: red}
+.aene {color: red}
+th {color: red}
+#adicional {color: 0x241a1a}
+#adicional span {color: darkviolet}
+#adicional a {color: darkgreen}
