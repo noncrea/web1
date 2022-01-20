@@ -41,7 +41,10 @@ article.ej2 .especial {
     color: red
 }
 
-article.ej2 table caption {color: blue}
+article.ej2 table caption {
+    color: blue
+}
+
 article.ej2 .especial,
 article.ej2 tr strong {
     color: darkgoldenrod
@@ -58,6 +61,11 @@ article.ej2 #adicional {
 article.ej2 #especial {
     color: fuchsia
 }
+
 article.ej2 #adicional a {
     color: darkgreen
+}
+
+ul.fpollos li { margin: 1%;
+ background: lime; display: inline-block; color: lime;
 }
