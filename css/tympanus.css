@@ -224,7 +224,7 @@ figure.effect-apollo h2 {
 }
 
 figure.effect-apollo:hover img {
-    opacity: 0.6;
+    opacity: 0.2;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
 }
