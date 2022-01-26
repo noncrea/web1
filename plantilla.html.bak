@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- html=etiqueta resto atributos -->
+<html lang="es" dir="ltr">
+<head>
+<!-- head etiqueta oculta, cabecera solo para el navegador,header cabecera visible -->
+	<meta charset="utf-8" />
+	<!-- metadatos para el buscador con atributos/descripcion... los metas se cierran en la misma linea de codigo -->
+	<meta description="tiendita" />
+	<title>IFCD010</title><!-- titulo solo navegador, pa la pestaña -->
+</head>
+<body>
+<!-- body=cuerpo/bloque central de la pag -->
+	<header><!--cabecera visible-->
+	</header>
+	<nav><!-- nav=enlaces de navegacion -->
+	</nav>
+	<main><!-- main=contenido -->
+		<article>
+		</article>
+	</main>
+</body>
+<footer> <!-- footer=pie dentro o fuera del bloque central, pa gustos-->
+</footer>
+</html>
+<!--codigos base enlaces
+<a href="" title="">textoenlace</a>
+<a href="" title="" target="_blank" rel="nofollow">textoenlace</a>
+"a" enlace, con titulo-se ve con raton/ targect-pestaña nueva/rel=pa que te sigan, o no..-->	
