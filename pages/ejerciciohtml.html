@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang=gl dir=LTR>
+<html lang=es dir=LTR>
+    <!-- Cabecera oculta del documento web -->
     <head>
-        <!-- Cabecera oculta del documento web -->
+        <!-- Juego de caracteres de casi todos los idiomas humanos (incluidos ñ, tildes ...) -->
         <meta charset=utf-8 />
+        <!-- Escala inicial y renderizado _responsive_ por el ancho del dispositivo -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Compatibilidad con Microsoft Explorer -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Indéxame y sígueme -->
         <meta name="robots" content="Index, Follow" />
-        <link rel="stylesheet" type="text/css" href="/assets/css/application.css" />
-    	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
+        <!-- Breve descripción del sitio que se verá en los resultados de búsqueda -->
+        <meta name="description" content="concecion y publicacion de pags web; aprende html, css y javascript con nosotros" />
+        <!-- Ruta a las hojas de estilos -->
+        <link rel="stylesheet" type="text/css" href="../css/basicos.css" />
+        <!-- Ruta al favicon -->
+        <link rel="shortcut icon" href="images/pito10.ico" type="image/vnd.microsoft.icon" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXX-n"></script>
         <script>
@@ -17,38 +25,46 @@
 
             gtag('config', 'UA-XXXX-n');
         </script>
+        <!-- Título de la pestaña -->
         <title>AMariña</title>
     </head>
-
     <body>
         <!-- Cuerpo visible del documento web -->
         <header><!--cabecera visible-->
         <a href="../index.html" title="lo q se lee al pasar rato pal index">
         <figure>
-            <img src="../images/pollo60.jpg" alt="inicio">
+            <img src="../images/polito60.png" alt="inicio">
         </figure>
+        <h1>Alitas Smith</h1>
         </a>
-        </header>
-                <h1>A Mariña</h1>
-            <p class="pechado">Slogan del sitio web</p>
+    </header>
         <!-- Menú de navegación principal del sitio -->
-        <nav>
-            <h2 class="pechado">Menú principal</h2>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="pages/servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Nosotros</a>
-                </li>
-            </ul>
-        </nav>
+    <nav>
+    <h2 class="menu">Er Pollito</h2>
+        <ul id="menu">
+            <li>Categorias
+                <ul id="categorias">
+                    <li>
+                        <a href="../categorias/html5.html">html5</a>
+                    </li>
+                    <li>
+                        <a href="../categorias/css.html">css</a>
+                    </li>                   
+                    <li>
+                        <a href="../categorias/js.html">javascript</a>
+                    </li>
+                    <li>
+                        <a href="categorias/loremipsum.html" title="lore" rel="nofollow">Lore</a>
+                    </li>
+                </ul>
+            <li>
+            <a href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li>
+            <a href="../pages/contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
         <!-- Contenido principal de la página web -->
         <main>
             <section>
@@ -62,13 +78,11 @@
                         </p>
                         <p>Su término municipal está ubicado en la región costera conocida como La Mariña, ocupando una superficie de 109,3 km².<sup>10</sup> Este territorio se sitúa en el valle formado por el río Landro, que extiende por el sur desde los piedemontes de la sierra del Gistral, y que desemboca al norte en la ría de Vivero, que es una de las rías pertenecientes a la región de las Rías Altas, que desembocan al mar Cantábrico.
                         </p>
-                    <a href="https://es.wikipedia.org/wiki/Vivero" title="referencia" target="_blank" rel="nofollow"></a>
-                    <img src="../images/viveiro.jpg" alt="Viveiro Pat" width="500" height="300" />
-                    <a href="ejerciciohtml.html" title="inicio" rel="nofollow" ></a>
-                    <img src="../images/escudo.jpg" alt="concello" width="180" height="300" />
+                    <a href="https://es.wikipedia.org/wiki/Vivero" title="referencia" target="_blank" rel="nofollow">
+                    <img src="../images/viveiro.jpg" alt="Viveiro Pat" width="500" height="300" /></a>
+                    <a href="ejerciciohtml.html" title="inicio" rel="nofollow" >
+                    <img src="../images/escudo.jpg" alt="concello" width="180" height="300" /></a>
                 </article>
-                <footer><nav>footer nav
-                </nav></footer>
                 <article>
                     <h3>Título del artículo</h3>
                     <p>Párrafo 1</p>
@@ -77,19 +91,23 @@
                 <!-- Pie de la sección -->
                 <footer></footer>
             </section>
-            <aside>
-                <h2>Título de la barra lateral</h2>
-                <nav>
-                    <ul>
-                        <li><a href="">Ir al artículo 1</a></li>
-                        <li><a href="">Ir al artículo 2</a></li>
-                        <li><a href="">Ir al artículo 3</a></li>
-                        <li><a href="">Ir al artículo 4</a></li>
-                    </ul>
-                </nav>
-            </aside>
+                    <aside>
+        <h2>manuales</h2>
+            <nav>Lateral
+                <ul>
+                    <li>
+                        <a href="https://es.wikipedia.org/wiki/HTML5" title="HTML5" target="_blank" rel="nofollow">html5</a>
+                    </li>
+                    <li>
+                        <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" title="CSS" target="_blank" rel="nofollow">css</a>
+                    <li>
+                        <a href="https://es.wikipedia.org/wiki/JavaScript" title="JAVA" target="_blank" rel="nofollow">javaScript</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
         </main>
         <!-- Pie de la página web -->
-        <footer></footer>
+        <footer>Peeeeee</footer>
     </body>
 </html>

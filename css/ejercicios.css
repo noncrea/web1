@@ -1,0 +1,71 @@
+h2 {
+    color: black
+}
+
+article.ej2 #titulo {
+    color: cadetblue
+}
+
+article.ej2 #subtitulo {
+    color: blue
+}
+
+article.ej2 p strong,
+article.ej2 a {
+    color: red
+}
+
+article.ej2 .destacado,
+article.ej2 .especial {
+    color: darkgoldenrod
+}
+
+article.ej2 .especial span {
+    color: darkviolet
+}
+
+article.ej2 p em {
+    color: blue
+}
+
+article.ej2 th,
+article.ej2 td {
+    border: 1px solid black;
+}
+
+article.ej2 tr {
+    color: green
+}
+
+article.ej2 .especial {
+    color: red
+}
+
+article.ej2 table caption {
+    color: blue
+}
+
+article.ej2 .especial,
+article.ej2 tr strong {
+    color: darkgoldenrod
+}
+
+article.ej2 th {
+    color: red
+}
+
+article.ej2 #adicional {
+    color: grey
+}
+
+article.ej2 #especial {
+    color: fuchsia
+}
+
+article.ej2 #adicional a {
+    color: darkgreen
+}
+
+ul.fpollos li { margin: 1%;
+ background: lime; display: inline-block; color: lime;
+}

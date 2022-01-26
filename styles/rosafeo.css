@@ -1,0 +1,134 @@
+    /* simbolo comentario. *=selector universal */
+    * {
+        margin: 0px;
+        padding: 2px;
+        background: lightpink;
+                font-family: 'Oswald', sans-serif;
+
+    }
+
+    @charset "utf-8";
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+
+    /* padding=reserva/caja del objeto */
+    header h1 {
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        margin-top: 20px;
+        background: gray;
+        text-align: center;
+        text-justify: auto;
+        color: aliceblue
+    }
+
+    nav {
+        border: 1px;
+        color: red;
+    }
+
+    article,
+    h2,
+    p {
+        width: 100%;
+        margin: 10px;
+        padding: 5px;
+        background-color: white;
+        align-items: center;
+    }
+
+    footer h2 {
+        width: 100%;
+        height: 60px;
+        line-height: 50px;
+        /* altura centrado de texto */
+        background: black;
+        text-align: center;
+        color: aqua
+    }
+
+    * {
+        color: red;
+    }
+
+    /* este * anula y sustituye al anterior */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: black;
+        background: white;
+        margin-top: 8px;
+        border: 0px;
+        font-style: inherit;
+
+    li,
+    a,
+    p {
+        color: dimgray;
+    }
+
+    article,
+    article p,
+    article h2 {
+        width: 94%;
+        padding: 8px;
+        border: 2px solid black;
+        background: white;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    section article article {
+        width: 94%;
+    }
+
+    section article {
+        width: 100%;
+    }
+
+    section {
+        /* margen arriba abajo izq y der. un solo valor se aplica a todos */
+        margin: 3%;
+        width: 94%;
+    }
+
+    article article p {
+        background: lime;
+        color: black;
+    }
+
+    article h2 {
+        border: 0px;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    * {
+        background: lightpink
+    }
+
+    ol,
+    ul,
+    li {
+        background: white;
+        margin: 10px;
+    }
+
+    em {
+        color: black;
+        background: white
+    }
+
+    span {
+        background: white;
+        color: darkblue;
+    }
