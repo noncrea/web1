@@ -71,7 +71,7 @@ footer {
         width: 40%;
     }
 
-    .a1 {
+    .a1 {/*display flex es para verlo en lista/horizontal*/
         display: flex;
         justify-content: center;
     }
