@@ -63,11 +63,7 @@ footer {
         background-color: aquamarine;
     }
 
-    .p1 {
-        width: 40%;
-    }
-
-    .p2 {
+    .p1, .p2 {
         width: 40%;
     }
 
