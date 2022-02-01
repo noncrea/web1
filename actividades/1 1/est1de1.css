@@ -1,0 +1,28 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 1%;
+}
+
+h1 {
+    font-size: 50px;
+    color: blue;
+    font-family: Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    color: red;
+    font-family: Arial;
+}
+
+p {
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial;
+    background: black;
+}
+
+body {
+    background-color: beige;
+}

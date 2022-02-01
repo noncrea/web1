@@ -1,0 +1,11 @@
+* {padding: 1em;}
+td, th {border: 2px solid black;}
+table.t1 {font-size: 16px;
+    border: 3px solid black;border-collapse: collapse;
+}
+.fi1 {background-color: yellow;}
+.fi4 {background-color: lightgray;color: brown;}
+a {background-color: blue;color: yellow;}
+
+a:visited {background-color: white;color: red;}
+a:hover {background-color: yellow;color: black;font-weight: 900;}
