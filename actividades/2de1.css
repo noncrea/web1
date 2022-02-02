@@ -15,7 +15,7 @@ header {
     background-color: saddlebrown;
     color: white;
     text-align: center;
-    padding: 1vw 0vw;
+    padding: 1vw 0vw;margin: 2vw 0vw;
 }
 
 nav {
@@ -28,6 +28,7 @@ nav {
 a {
     text-decoration: none;
 }
+
 /*inline block - inline; en linea / block;ocupa lo que ocupe el contenido*/
 nav ul li {
     padding: 0.5vw 5vw;
@@ -42,7 +43,12 @@ nav ul li {
 a:hover {
     color: red;
 }
-li:hover {border-style: double; background-color: lightgray;}
+
+li:hover {
+    border-style: double;
+    background-color: lightgray;
+}
+
 h2 {
     background-color: yellow;
     padding-left: 2vw;
@@ -68,7 +74,7 @@ footer {
     background-color: brown;
     color: white;
     text-align: center;
-    border-radius: 1vw;
+    border-radius: 1vw;padding: 0vw;
 }
 
 footer p {
