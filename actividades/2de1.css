@@ -1,12 +1,14 @@
-/*resear margenes iniciales*/
+/*resetear margenes iniciales*/
 * {
     margin: 0;
     padding: 0;
 }
+
 /*color de fondo*/
 body {
     background-color: silver;
 }
+
 /*ancho completo de cabecera, color de fondo, color de contenido, alineacion y reserva en altura*/
 header {
     width: 100%;
@@ -22,34 +24,43 @@ nav {
     padding: 1vw;
 }
 
-nav ul li {
-    padding: 0.5vw 5vw;
-    margin: 0vw 5vw;
-    display: inline;
-    background-color: khaki;
-    border: 2px solid white;
-    border-style: dotted;
-}
 /*quitar subrayado/estilo a los enlaces "href"*/
 a {
     text-decoration: none;
 }
+/*inline block - inline; en linea / block;ocupa lo que ocupe el contenido*/
+nav ul li {
+    padding: 0.5vw 5vw;
+    margin: 0vw 5vw;
+    display: inline-block;
+    background-color: khaki;
+    border: 2px white;
+    border-style: dotted;
+}
+
 /*cambio de color al pasar el raton sobre el texto de los botones de menu*/
 a:hover {
     color: red;
 }
-
+li:hover {border-style: double; background-color: lightgray;}
 h2 {
     background-color: yellow;
     padding-left: 2vw;
 }
 
 .part {
-    background-color: pink;
+    background-color: lightpink;
     padding-left: 2vw;
 }
+
 /*cambio de propiedades para la 1 letra del parrafo del articulo*/
-.part:first-letter {font-size: 5vw;font-style: initial; font-style: oblique; color: red;text-shadow: 0.05em 0.05em black;}
+.part:first-letter {
+    font-size: 5vw;
+    font-weight: bold;
+    font-style: oblique;
+    color: red;
+    text-shadow: 0.05em 0.05em black;
+}
 
 footer {
     width: 60%;
@@ -58,5 +69,9 @@ footer {
     color: white;
     text-align: center;
     border-radius: 1vw;
-    }
-footer p {margin: 1vw;padding: 1vw;}
+}
+
+footer p {
+    margin: 1vw;
+    padding: 1vw;
+}
