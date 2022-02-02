@@ -30,7 +30,7 @@ nav ul li {
     border: 2px solid white;
     border-style: dotted;
 }
-
+/*quitar subrayado/estilo a los enlaces "href"*/
 a {
     text-decoration: none;
 }
