@@ -49,8 +49,7 @@ h2 {
     padding-left: 2vw;
 }
 /*cambio de propiedades para la 1 letra del parrafo del articulo*/
-.part:first-letter {font-size: 5vw;font-style: initial; font-style: oblique; color: red;
-}
+.part:first-letter {font-size: 5vw;font-style: initial; font-style: oblique; color: red;text-shadow: 0.05em 0.05em grey;}
 
 footer {
     width: 60%;
