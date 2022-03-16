@@ -7,7 +7,7 @@ article.ej2 #titulo {
 }
 
 article.ej2 #subtitulo {
-    color: blue
+    color: blue; display:  
 }
 
 article.ej2 p strong,
